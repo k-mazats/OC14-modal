@@ -1,0 +1,33 @@
+{
+	"name": "oc14-modal",
+	"version": "1.0.0",
+	"description": "A simple react modal component",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"focus-trap-react": "^8.8.2"
+	},
+	"peerDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.16.0",
+		"@babel/core": "^7.16.0",
+		"@babel/preset-env": "^7.16.0",
+		"@babel/preset-react": "^7.16.0"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/k-mazats/OC14-modal"
+	}
+}
