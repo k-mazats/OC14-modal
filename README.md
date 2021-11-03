@@ -1,4 +1,4 @@
-# OC-MODAL
+# OC14-MODAL
 
 Simple React modal.
 
