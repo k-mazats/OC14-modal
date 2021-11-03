@@ -4,6 +4,15 @@ Simple React modal.
 
 ## Installation
 
+### With NPM
+
+`npm i oc14-modal`
+
+### With yarn
+
+`yarn add oc14-modal`
+
+
 ## Props
 
 Main component has 4 availables props, 3 are required:
@@ -70,7 +79,7 @@ Here is a simple example on how to use the modal
 
 ```js
 import { useState } from 'react';
-import Modal from './lib/Modal';
+import {Modal} from 'oc14-modal';
 
 const App = () => {
 	const [modalState, setModalState] = useState(true);
