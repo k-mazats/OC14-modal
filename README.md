@@ -82,11 +82,12 @@ import { useState } from 'react';
 import {Modal} from 'oc14-modal';
 
 const App = () => {
-	const [modalState, setModalState] = useState(true);
+	const [modalState, setModalState] = useState(false);
 	const modalContent = <h1>Hello, World!</h1>;
 	const customCloseButton = <button>Close</button>;
 	return (
 		<div>
+			<button onClic={()=>{setModalState(true)}}>Open</button>
 			<Modal
 				isVisible={modalState}
 				toggleModal={setModalState}
